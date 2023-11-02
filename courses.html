@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>College Website</title>
+        <link rel="stylesheet" href="cstyle.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+       <section class="header">
+           <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="index.php">COURSE</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="logout.php">LOGOUT</a></li>
+                    <li><i class='bx bx-shopping-bag' id="cart-icon" style="background-color: brown;"></i>
+                        <div class="cart1">
+                            <h2 class="cart-title">Your Cart</h2>
+                            <div class="cart-content">
+                            </div>
+                            <div class="total">
+                                <div class="total-title">Total</div>
+                                <div class="total-price">$0</div>
+                            </div>
+                            <button type="button" class="btn-buy">Buy Now</button>
+                            <i class='bx bx-x' id="close-cart"></i>
+                        </div>
+                    
+                    </li>
+                </ul>
+            </div>
+           </nav>
+           <div class="search-box">
+			<input type="text" id="search-input" placeholder="Search courses...">
+			<button><i class="fas fa-search">Enter</i></button>
+		   </div>
+           <main>
+            <div class="course-container">
+                <div class="course">
+                    <img src="images/java.webp" alt="Course 1" class="product-img">
+                    <h3 class="product-title">JAVA</h3>
+                    <p>  Java is a free and open source high level programming language. It is simple as well as object oriented language.
+                        Till date, the Java platform has attracted more than 6.5 million software developers.</p>
+                        <b><span style="position: relative; left: 20px;">Price:</span>
+                    <span class="price" style="position: relative; left: 20px;">$25</span></b>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+                    <a href="course4.html" class="btn">Learn More</a>
+                </div>
+                <div class="course">
+                    <img src="images/dm.webp" alt="Course 2" style="height:180px;" class="product-img">
+                    <h3 class="product-title">DATA Mining</h3>
+                    <p>Data mining methodology extracts hidden predictive information from large databases.The different learning paradigms and some of the more popular algorithms .</p>
+                    <b><span style="position: relative; left: 20px;">Price:</span>
+                        <span class="price" style="position: relative; left: 20px;">$35</span></b>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    <a href="course6.html" class="btn">Learn More</a>
+                    
+                </div>
+                <div class="course">
+                    <img src="images/python.webp" alt="Course 3" class="product-img">
+                    <h3 class="product-title">Python</h3>
+                    <p>It is a great language to start as a beginner and then to scale up to professional programmer.
+                        This course will help enhancing the problem solving skills of the undergraduate student using the python language</p>
+                        <b><span style="position: relative; left: 20px;">Price:</span>
+                            <span class="price" style="position: relative; left: 20px;">$25</span></b>
+                            <i class='bx bx-shopping-bag add-cart'></i>
+                        <a href="course3.html" class="btn">Learn More</a>
+                    
+                </div>
+                <div class="course">
+                    <img src="images/ml.webp" alt="Course 4" style="height:180px;" class="product-img">
+                    <h3 class="product-title">MACHINE LEARNING</h3>
+				<p> With the increased availability of data from varied sources there has been increasing attention paid to the various data driven disciplines
+                    such as analytics and machine learning.
+                </p>
+                <b><span style="position: relative; left: 20px;">Price:</span>
+                    <span class="price" style="position: relative; left: 20px;">$45</span></b>
+                    <i class='bx bx-shopping-bag add-cart'></i>
+				<a href="course8.html" class="btn">Learn More</a>
+                
+			</div>
+			<div class="course">
+				<img src="images/st.webp" alt="Course 5" class="product-img">
+				<h3 class="product-title">Software Testing</h3>
+				<p>Over the years program several testing techniques have developed and tools have become available. 
+                    Also, testing has been acknowledged as the primary technique for ensuring software reliability</p>
+                    <b><span style="position: relative; left: 20px;">Price:</span>
+                        <span class="price" style="position: relative; left: 20px;">$15</span></b>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    <a href="course5.html" class="btn">Learn More</a>
+                
+			</div>
+			<div class="course">
+				<img src="images/uiux.webp" alt="Course 6" style="height:180px;" class="product-img">
+				<h3 class="product-title">UI/UX design</h3>
+				<p> The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design, and offers practical, 
+                    skill-basedWe will cover the different learning paradigms and some of the more popular</p>
+                    <b><span style="position: relative; left: 20px;">Price:</span>
+                        <span class="price" style="position: relative; left: 20px;">$20</span></b>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    <a href="course7.html" class="btn">Learn More</a>
+                
+			</div>
+            <div class="course">
+				<img src="images/dsa.webp" alt="Course 7" class="product-img">
+				<h3 class="product-title">Data structures and algorithm</h3>
+				<p>Using some motivating examples, the course quickly builds up basic concepts such as conditionals, loops, functions, lists, strings and tuples. 
+                    It goes on to cover searching and sorting algorithms, dynamic programming...
+                     </p>
+                    <b><span style="position: relative; left: 20px;">Price:</span>
+                        <span class="price" style="position: relative; left: 20px;">$30</span></b>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    <a href="course2.html" class="btn">Learn More</a>
+			</div>
+			<div class="course">
+				<img src="images/AI.webp" alt="Course 8" class="product-img">
+				<h3 class="product-title">Artificial Intelligence</h3>
+				<p>
+                    An intelligent agent needs to be able to solve problems in its world. The ability to create representations of the domain of interest and 
+                    reason with these representations is a key to intelligence. </p>
+                    <b><span style="position: relative; left: 20px;">Price:</span>
+                        <span class="price" style="position: relative; left: 20px;">$25</span></b>
+                        <i class='bx bx-shopping-bag add-cart'></i>
+                    <a href="course1.html" class="btn">Learn More</a>
+			</div>
+		</div>
+	</main>
+           
+
+
+
+
+           <footer>
+            <p>&copy; My Eduford Website 2023</p>
+        </footer>
+    <script src="main.js"></script>
+        </body>
+    </html>

@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding-top: 1%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+nav img{
+    width:150px;
+}
+.nav-links{
+    flex:1;
+    text-align: right;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 700px;
+  
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#f7cdcd,#c2f7f8);
+    display:grid;
+    place-items: center;
+}
+.form-heading{
+    font-family: "Arial",sans-serif;
+    font-size: 6 rem;
+    font-weight: 400;
+    color:#fff;
+    letter-spacing: 0.3rem;
+    margin-bottom: 3rem;
+    transition: all 0.3s;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form-input{
+    width: 60rem;
+    height: 3rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    background-color: rgba(255,255,255,0.4);
+    border: 0.3rem solid #fff;
+    font-size: 1.7rem;
+    font-weight: 300;
+    color: #aaa;
+    letter-spacing: 0.1rem;
+outline: none;
+}
+.contact-form-textarea{
+    height:20rem;
+    resize: none;
+}
+.contact-form-input:focus{
+    color:#929292;
+    border:0.1rem solid #d699e6; 
+}
+.contact-form-input::placeholder{
+    color:#929292;
+
+}
+.form-submit-btn{
+    width: 20rem;
+    height: 5rem;
+    background-color: #fff;
+    border: none;
+    font-size: 1.8rem;
+    color: #929292;
+    cursor: pointer;
+}
